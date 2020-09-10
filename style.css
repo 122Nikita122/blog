@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+header,
+footer {
+  background-color: #dd5555;
+  padding: 30px;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+main {
+  background-color: #ece2d1;
+  display: flex;
+  min-height: 100vh;
+}
+footer {
+  background-color: #dd5555;
+  height: 20px; /*пока чтобы видно было*/
+}
+article {
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #f3f0eb;
+  border-radius: 4px;
+  background-color: #f3f0eb;
+  transition: 0.18s ease all;
+}
+article:hover {
+  transition: 0.18s ease all;
+  box-shadow: 1px 3px 3px rgb(175, 171, 171);
+}
+.section_titel {
+  display: flex;
+  justify-content: space-between;
+}
+.section_titel label {
+  font-family: "Inconsolata", monospace;
+}
+.titel {
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  font-weight: unset;
+  margin-top: 15px;
+}
+small {
+  color: gray;
+}
+.section_text {
+  display: flex;
+}
+.text {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0;
+}
+.section_text img {
+  width: 150px;
+  height: 150px;
+  /* overflow: hidden; */
+}
+.text_block {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  justify-content: space-between;
+}
+.text_block h3 {
+  margin: 0;
+}
+.text_block a {
+  font-family: "Roboto", sans-serif;
+  color: #dd5555;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: end;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+}
+aside article {
+  display: flex;
+  min-width: 320px;
+  margin: 0 15px 15px 0;
+}
+aside article p {
+  margin-left: 15px;
+}
+aside img {
+  width: 100px;
+}
